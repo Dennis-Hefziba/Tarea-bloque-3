@@ -7,10 +7,12 @@ archivo="/workspaces/Tarea-bloque-3/ventas.csv"
 exec >> /workspaces/Tarea-bloque-3/reporte.txt
 
 # Generar el total de ventas por mes
+echo "**************************************************"
 echo "Total de ventas por mes:"
-awk -F, '{split($1, fecha, "/"); mes = strftime("%B %Y", mktime("2000 " fecha[2] " " fecha[1] " 0 0 0")); ventas[mes] += $3} END {for (mes in ventas) print "Mes:", mes ", Total Ventas:", ventas[mes]}' $archivo
+echo "************************************************"
+awk -F, '{split($1, fecha, "/"); mes = strftime("%B %Y", mktime(fecha[3]" "fecha[2]" "fecha[1]" 0 0 0")); ventas[mes] += $3} END {for (mes in ventas) print "Mes:", mes ", Total Ventas:", ventas[mes]}' $archivo
 
-echo ""
+echo "**********************************************************"
 
 # Producto más vendido en el año
 echo "Producto más vendido en el año:"
@@ -18,10 +20,11 @@ awk -F, 'NR>1{productos[$2]+=$3} END {for (producto in productos) print producto
     echo "Producto: $producto, Monto: $monto"
 done
 
-echo ""
+echo "**********************************************************"
 
 # Calcular el monto total anual
 total_anual=$(awk -F, 'NR>1{total+=$3} END {print total}' $archivo)
 echo "Monto total anual: $total_anual"
-
 echo ""
+echo ""
+
