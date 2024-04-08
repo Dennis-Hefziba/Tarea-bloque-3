@@ -1,28 +1,5 @@
 
 
-**************************************************
-Total de ventas por mes:
-
-Mes: May 2023, Total Ventas: 525
-Mes: January 2023, Total Ventas: 515
-Mes: July 2023, Total Ventas: 940
-Mes: September 2023, Total Ventas: 745
-Mes: February 2023, Total Ventas: 250
-Mes: October 2023, Total Ventas: 365
-Mes: February 2024, Total Ventas: 25
-Mes: March 2023, Total Ventas: 65
-Mes: April 2023, Total Ventas: 310
-Mes: March 2024, Total Ventas: 675
-Mes: August 2023, Total Ventas: 245
-Mes: November 2023, Total Ventas: 332
-Mes: June 2023, Total Ventas: 135
-Mes: December 2023, Total Ventas: 711
-Mes: December 1969, Total Ventas: 0
-**********************************************************
-Producto más vendido en el año:
-Producto: Computadora Gamer, Monto: 850
-**********************************************************
-Monto total anual: 5838
 
 **************************************************
 Total de ventas por mes:
@@ -46,7 +23,11 @@ Mes: December 1969, Total Ventas: 0
 Producto más vendido en el año:
 Producto: Computadora Gamer, Monto: 850
 **********************************************************
+Cliente más frecuente:
+Cliente: Carlos Martinez , Veces: 2
+**********************************************************
 Monto total anual: 5838
+
 
 **************************************************
 Total de ventas por mes:
@@ -69,6 +50,9 @@ Mes: December 1969, Total Ventas: 0
 **********************************************************
 Producto más vendido en el año:
 Producto: Computadora Gamer, Monto: 850
+**********************************************************
+Cliente más frecuente:
+Cliente: Carlos Martinez , Veces: 2
 **********************************************************
 Monto total anual: 5838
 

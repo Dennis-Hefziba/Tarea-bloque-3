@@ -22,6 +22,12 @@ done
 
 echo "**********************************************************"
 
+# Cliente más frecuente
+echo "Cliente más frecuente:"
+awk -F, 'NR>1{clientes[$4]++} END {max = 0; max_cliente = ""; for (cliente in clientes) {if (clientes[cliente] > max) {max = clientes[cliente]; max_cliente = cliente}}; print "Cliente:", max_cliente, ", Veces:", max}' $archivo
+
+echo "**********************************************************"
+
 # Calcular el monto total anual
 total_anual=$(awk -F, 'NR>1{total+=$3} END {print total}' $archivo)
 echo "Monto total anual: $total_anual"

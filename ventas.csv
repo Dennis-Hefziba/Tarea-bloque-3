@@ -1,7 +1,7 @@
 fecha,producto,monto,cliente
 1/1/2023,Computadora,500,Pedro Martinez
 11/1/2023,Teclado,15,Dennis Roldan
-3/2/2023,Monitor,250,Luis Sanchez
+3/2/2023,Monitor,250,Carlos Martinez
 4/2/2024,Raton,25,Carlos Martinez
 11/3/2024,Portatil,675,Jesus Quijano
 14/3/2023,Disco duro,65,Bryan Lopez
@@ -23,3 +23,4 @@ fecha,producto,monto,cliente
 2/11/2023,Smartphone,315,Javier Sánchez
 30/12/2023,Tablet,256,Elena Jiménez
 17/12/2023,Ipad,455,Ricardo Núñez
+
